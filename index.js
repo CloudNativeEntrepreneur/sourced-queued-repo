@@ -76,5 +76,4 @@ function QueuedRepo (repo) {
   return copy
 }
 
-
-module.exports = QueuedRepo 
+module.exports = QueuedRepo
