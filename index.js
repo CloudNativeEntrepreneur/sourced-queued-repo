@@ -2,7 +2,7 @@ const { EventEmitter } = require('events')
 const queue = require('fastq')
 
 class Lock extends EventEmitter {
-  constructor() {
+  constructor () {
     super()
 
     this.locked = false
