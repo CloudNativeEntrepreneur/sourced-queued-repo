@@ -16,19 +16,19 @@
   ],
   "license": "ISC",
   "dependencies": {
-    "fastq": "1.11.0"
+    "fastq": "1.11.1"
   },
   "devDependencies": {
-    "codecov": "3.8.2",
+    "codecov": "3.8.3",
     "eslint": "7.32.0",
     "eslint-config-standard": "16.0.3",
     "eslint-plugin-import": "2.23.4",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-promise": "5.1.0",
     "eslint-plugin-standard": "4.1.0",
-    "mocha": "9.0.0",
+    "mocha": "9.0.3",
     "should": "13.2.3",
-    "sourced": "2.0.8",
-    "sourced-repo-mongo": "1.0.0"
+    "sourced": "2.0.9",
+    "sourced-repo-mongo": "1.0.2"
   }
 }
