@@ -21,7 +21,7 @@ class Lock extends EventEmitter {
   }
 }
 
-module.exports = function (repo) {
+function QueuedRepo (repo) {
   const copy = Object.create(repo)
 
   copy._locks = {}
@@ -75,3 +75,6 @@ module.exports = function (repo) {
 
   return copy
 }
+
+
+module.exports = QueuedRepo 
